@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "@dashlane/pqc-sign-dilithium5-browser": "npm:@dashlane/pqc-sign-dilithium5-browser",
+    "@valibot/valibot": "jsr:@valibot/valibot@^0.30.0"
+  },
+  "fmt": {
+    "indentWidth": 2,
+    "semiColons": false,
+    "useTabs": false,
+    "singleQuote": true
+  },
+  "tasks": {
+    "dev": "deno run -A example/main.ts"
+  }
+}

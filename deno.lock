@@ -1,0 +1,42 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@valibot/valibot@^0.30.0": "jsr:@valibot/valibot@0.30.0",
+      "npm:@dashlane/pqc-sign-dilithium2-browser": "npm:@dashlane/pqc-sign-dilithium2-browser@1.0.0",
+      "npm:@dashlane/pqc-sign-dilithium5-browser": "npm:@dashlane/pqc-sign-dilithium5-browser@1.0.0",
+      "npm:dilithium-crystals": "npm:dilithium-crystals@1.0.6",
+      "npm:pqc-dilithium": "npm:pqc-dilithium@0.2.0"
+    },
+    "jsr": {
+      "@valibot/valibot@0.30.0": {
+        "integrity": "a0a8701bc789a7bf91bff22308c590c22ac7d6076617289b04125490954bebe2"
+      }
+    },
+    "npm": {
+      "@dashlane/pqc-sign-dilithium2-browser@1.0.0": {
+        "integrity": "sha512-FlCG6h9YZT2QUNfg4yARj/JMx3e0cqOPXihPMZSwfbudYHTEb8kysw0YCmITqgg/I2se/W3qd1Mz+xlIhRj5Gw==",
+        "dependencies": {}
+      },
+      "@dashlane/pqc-sign-dilithium5-browser@1.0.0": {
+        "integrity": "sha512-E6UUSj0I/aU05XM3ARlVrMkZlycAp82AeMyTrACZonyF+oUWUEx1siq8R4mVbp78UyU2KSY1unuJ2+DVU4dZWw==",
+        "dependencies": {}
+      },
+      "dilithium-crystals@1.0.6": {
+        "integrity": "sha512-zPMHDmr2l2A6ZU574cbwNn1AX1UkIIYcJTcN4DEycrKXtgqGp7kPYSpatzcEthTLEKwwYBWYyV6mO5HcBlZwyg==",
+        "dependencies": {}
+      },
+      "pqc-dilithium@0.2.0": {
+        "integrity": "sha512-hdWJELgCXec5vBH6QydcKJ7IqFB3KrOH0bFulBAgXyYgDZWweF/lJ7mwtbh1r1VqpYG5esivdCrtPD3M57NGLw==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@valibot/valibot@^0.30.0",
+      "npm:@dashlane/pqc-sign-dilithium5-browser"
+    ]
+  }
+}
