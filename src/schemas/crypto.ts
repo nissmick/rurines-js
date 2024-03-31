@@ -1,7 +1,5 @@
 import { Output, literal, object, string, union } from '@valibot/valibot'
 
-
-
 /**
  * Public Key
  */
