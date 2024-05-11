@@ -1,4 +1,4 @@
-import { type BaseSchema, object, unknown } from '@valibot/valibot'
+import { type BaseSchema, object, unknown, type Output } from '@valibot/valibot'
 import { session } from './user.ts'
 
 /**
@@ -12,3 +12,4 @@ export const customEvent = <T extends BaseSchema>(data: T) => object({
 })
 
 export const unknownEvent = customEvent(unknown())
+export type UnknownEvent = Output<typeof unknownEvent>

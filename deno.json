@@ -1,7 +1,9 @@
 {
   "imports": {
     "@dashlane/pqc-sign-dilithium5-browser": "npm:@dashlane/pqc-sign-dilithium5-browser",
-    "@valibot/valibot": "jsr:@valibot/valibot@^0.30.0"
+    "@valibot/valibot": "jsr:@valibot/valibot@^0.30.0",
+    "hono": "npm:hono@4",
+    "hono/deno": "npm:hono/deno"
   },
   "fmt": {
     "indentWidth": 2,
@@ -10,6 +12,7 @@
     "singleQuote": true
   },
   "tasks": {
-    "dev": "deno run -A example/main.ts"
+    "dev": "deno run -A --watch example/main.ts",
+    "dev:relay": "deno serve --watch example/demo-relay.ts"
   }
 }

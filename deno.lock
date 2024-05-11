@@ -6,6 +6,8 @@
       "npm:@dashlane/pqc-sign-dilithium2-browser": "npm:@dashlane/pqc-sign-dilithium2-browser@1.0.0",
       "npm:@dashlane/pqc-sign-dilithium5-browser": "npm:@dashlane/pqc-sign-dilithium5-browser@1.0.0",
       "npm:dilithium-crystals": "npm:dilithium-crystals@1.0.6",
+      "npm:hono": "npm:hono@4.3.4",
+      "npm:hono@4": "npm:hono@4.3.4",
       "npm:pqc-dilithium": "npm:pqc-dilithium@0.2.0"
     },
     "jsr": {
@@ -26,6 +28,10 @@
         "integrity": "sha512-zPMHDmr2l2A6ZU574cbwNn1AX1UkIIYcJTcN4DEycrKXtgqGp7kPYSpatzcEthTLEKwwYBWYyV6mO5HcBlZwyg==",
         "dependencies": {}
       },
+      "hono@4.3.4": {
+        "integrity": "sha512-oh+PBwW8yElj3bUlY2dTXhuPt1MCZp6Nb04tejLwY+GXdphQH6uCpUP0dY5iLvFY5wM8fNHrMx1QeMKbhnzw9w==",
+        "dependencies": {}
+      },
       "pqc-dilithium@0.2.0": {
         "integrity": "sha512-hdWJELgCXec5vBH6QydcKJ7IqFB3KrOH0bFulBAgXyYgDZWweF/lJ7mwtbh1r1VqpYG5esivdCrtPD3M57NGLw==",
         "dependencies": {}
@@ -36,7 +42,9 @@
   "workspace": {
     "dependencies": [
       "jsr:@valibot/valibot@^0.30.0",
-      "npm:@dashlane/pqc-sign-dilithium5-browser"
+      "npm:@dashlane/pqc-sign-dilithium5-browser",
+      "npm:hono",
+      "npm:hono@4"
     ]
   }
 }
